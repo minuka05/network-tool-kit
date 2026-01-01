@@ -14,10 +14,9 @@ import tkinter.font as tkfont
 import webbrowser
 from datetime import datetime
 import threading
-import json
 import ipaddress
 from scanner_engine import PortScanner, ScanType
-from utils import validate_target, parse_ports, format_scan_results
+from utils import validate_target, parse_ports
 from host_discovery import HostDiscovery, IPIntelligence, LANScanner
 from reporting import export_scan_results
 import logging

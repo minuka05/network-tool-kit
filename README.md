@@ -65,8 +65,6 @@ A comprehensive, educational network analysis tool built with Python and Tkinter
 - **`scanner_engine.py`**: Core logic for port scanning (TCP Connect, SYN, UDP) and service detection.
 - **`utils.py`**: Helper functions for input validation, data formatting, and common utilities.
 - **`reporting.py`**: Manages the export of scan results to various formats (HTML, JSON, CSV).
-- **`config.py`**: Configuration settings and constants used throughout the application.
-- **`requirements.txt`**: List of Python dependencies required to run the tool.
 
 ## ⚠️ Legal Disclaimer
 
