@@ -43,8 +43,8 @@ A comprehensive, educational network analysis tool built with Python and Tkinter
 ### Setup
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/minuka05/port-scan.git
-   cd port-scan
+   git clone https://github.com/minuka05/network-tool-kit.git
+   cd network-tool-kit
    ```
 
 2. **Install Dependencies**

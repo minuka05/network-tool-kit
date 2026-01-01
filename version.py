@@ -8,7 +8,7 @@ __author__ = "github.com/minuka05"
 __license__ = "Educational Use Only"
 __copyright__ = "Copyright (c) 2026"
 __email__ = "contact@example.com"
-__url__ = "https://github.com/yourusername/port-scan"
+__url__ = "https://github.com/minuka05/network-tool-kit"
 __description__ = "Network Analyzer - Educational Tool for Cybersecurity Students"
 __build_date__ = "2026-01-01"
 

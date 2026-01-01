@@ -134,9 +134,9 @@ USER_PREFERENCES = {
 }
 
 # Help and Documentation
-HELP_URL = "https://github.com/yourusername/port-scan/wiki"
-DOCUMENTATION_URL = "https://github.com/yourusername/port-scan/blob/main/README.md"
-ISSUES_URL = "https://github.com/yourusername/port-scan/issues"
+HELP_URL = "https://github.com/minuka05/network-tool-kit/wiki"
+DOCUMENTATION_URL = "https://github.com/minuka05/network-tool-kit/blob/main/README.md"
+ISSUES_URL = "https://github.com/minuka05/network-tool-kit/issues"
 
 # Legal and Compliance
 DISCLAIMER_TEXT = """

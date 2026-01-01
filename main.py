@@ -147,7 +147,7 @@ class PortScannerGUI:
             cursor='hand2'
         )
         link_label.grid(row=0, column=1, sticky=tk.E)
-        link_label.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/minuka05/port-scan"))
+        link_label.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/minuka05/network-tool-kit"))
 
         # Bind tab change to handle focus
         self.notebook.bind("<<NotebookTabChanged>>", self.on_tab_change)
