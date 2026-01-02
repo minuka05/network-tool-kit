@@ -1,5 +1,5 @@
 """
-Network Analyzer - Main GUI Application
+Network Toolkit - Main GUI Application
 Educational tool for cybersecurity students and analysts
 Version: 1.0
 Date: January 2026
@@ -38,11 +38,11 @@ logging.basicConfig(
 
 
 class PortScannerGUI:
-    """Main GUI application for the Network Analyzer"""
+    """Main GUI application for the Network Toolkit"""
     
     def __init__(self, root):
         self.root = root
-        self.root.title(f"Network Analyzer v{__version__} - Educational Tool")
+        self.root.title(f"Network Toolkit v{__version__} - Educational Tool")
         self.root.geometry("850x680")
         self.root.minsize(850, 680)
         self.root.resizable(True, True)
@@ -107,7 +107,7 @@ class PortScannerGUI:
         # Title
         title_label = ttk.Label(
             main_frame, 
-            text=f"Network Analyzer v{__version__}", 
+            text=f"Network Toolkit v{__version__}", 
             font=('Arial', 16, 'bold')
         )
         title_label.grid(row=0, column=0, pady=(0, 5))
@@ -133,7 +133,7 @@ class PortScannerGUI:
         # Left side text
         ttk.Label(
             footer_frame, 
-            text=f"Network Analyzer v{__version__}", 
+            text=f"Network Toolkit v{__version__}", 
             font=('Arial', 8)
         ).grid(row=0, column=0, sticky=tk.W)
         
@@ -1478,7 +1478,7 @@ Org:     {geoip['org']}
         # Insert Header Info
         header_info = f"""
 {'='*80}
-Network Analyzer - Scan Report
+Network Toolkit - Scan Report
 {'='*80}
 Target: {target}
 Ports Scanned: {len(ports) if isinstance(ports, list) else 'Range'}
